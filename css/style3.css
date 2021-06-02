@@ -4,6 +4,54 @@ html {
 	background-color: #F7F5F3;
 }
 
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px）) { 
+    #Contact .title .call {
+        margin-top: 0px;
+        float: initial;
+        
+    }
+    .storiesTopLeft {
+        padding-right:0;
+        border-right: none;
+    }
+    .mainStoriesBook #anna img{
+        margin-top: 0px;
+    }
+ }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+    #Contact .title .call {
+        margin-top: 250px;
+        float: right;
+
+    }
+    .storiesTopLeft {
+        padding-right:0;
+        border-right: none;
+    }
+
+    #Contact .title .name{
+        margin-top: 200px;
+    }
+ }
+
+ /* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+    #Contact .title .call {
+        margin-top: 255px;
+        float: right;
+
+    }
+    .storiesTopLeft {
+        padding-right: 80px;
+        position: relative;
+        border-right: 1px solid #a68d85;
+        margin-bottom: 10px;
+    }
+ }
+
 /*navbar*/
 .navbar-brand img {
 	height: 50px;
@@ -77,14 +125,10 @@ html {
 	justify-content: left;
 }
 
-.topic1 a {
-	text-decoration: none;
-	font-size: 24px;
-	color: #000;
-}
 
 .topic1 p {
 	color: #787D7B;
+	font-size: 16px;
 }
 
 .info1 {
@@ -121,12 +165,6 @@ html {
 	align-items: center;
 	padding: 0 0;
 	justify-content: left;
-}
-
-.topic2 a {
-	text-decoration: none;
-	font-size: 24px;
-	color: #000;
 }
 
 .topic2 p {
@@ -169,12 +207,6 @@ html {
 	justify-content: left;
 }
 
-.topic3 a {
-	text-decoration: none;
-	font-size: 24px;
-	color: #000;
-}
-
 .topic3 p {
 	color: #787D7B;
 }
@@ -213,12 +245,6 @@ html {
 	align-items: center;
 	padding: 0 0;
 	justify-content: left;
-}
-
-.topic4 a {
-	text-decoration: none;
-	font-size: 24px;
-	color: #000;
 }
 
 .topic4 p {
